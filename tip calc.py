@@ -33,3 +33,10 @@ odd = [1,3,5,7,9]
 print(odd)
 even = [2,4,6,8,10]
 print(even)
+number = input("Enter your number")
+if number == odd:
+    print('odd')
+else: print('too large')
+if number == even:
+    print('even')
+
