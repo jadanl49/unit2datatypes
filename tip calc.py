@@ -10,8 +10,26 @@
 # print(values[0])
 # print(values[6])
 
-x = "this is a thing"
+""" x = "this is a thing"
 y= x.split( )
 z = y[0]
 print(y)
-print(z)
+print(z) """
+
+
+""" bill = input("how much was the bill?")
+print(int(bill) * 20) """
+
+""" day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
+
+""" x = "test"
+print(f"hello {x}")
+ """
+odd = [1,3,5,7,9]
+print(odd)
+even = [2,4,6,8,10]
+print(even)
