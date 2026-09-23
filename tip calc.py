@@ -29,14 +29,32 @@ else:
 """ x = "test"
 print(f"hello {x}")
  """
-odd = [1,3,5,7,9]
+""" odd = [1,3,5,7,9]
 
 even = [2,4,6,8,10]
 
 number = input("Enter your number")
 if number == odd:
     print('odd')
-else: print('too large')
 if number == even:
     print('even')
 
+else: print('too large')
+
+
+print(odd)
+
+print(odd[1])
+
+for odd in odd:
+    if odd =="1":
+        print(f'we found {odd}') 
+ """
+
+
+
+x = input("input a sentence")
+y= x.split( )
+z = y[0]
+print(y)
+print(z)
