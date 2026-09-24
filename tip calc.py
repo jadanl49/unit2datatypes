@@ -52,9 +52,21 @@ for odd in odd:
  """
 
 
-
+""" 
 x = input("input a sentence")
 y= x.split( )
 z = y[0]
 print(y)
 print(z)
+ """
+def bilcalc(b):
+    b=str(input("how much was the bill"))
+    if b == "bad":
+        print("0%")
+    elif b == "okay":
+        print("15%")
+    elif b =="good":
+        print("20%")
+    elif b == "great":
+        print("25%")
+bilcalc(b=True)
