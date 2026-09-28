@@ -30,9 +30,16 @@ i = f//9
 print(result,a,b,c,d,e,g,h,i) """
 
 f, z = (float, input("What is your first factor, what is the second?").split())
-a = f % 1
-b = f % 5
-c = z % 2
+a = f%2 
+b = f%5
+
+if f == a:
+    print =()
+
+
+
+
+   
 
 
 
