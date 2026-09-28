@@ -1,10 +1,10 @@
-f=int(input("What is your number"))
+""" f=int(input("What is your number"))
 result = f%2
 if result == 1:
     print("odd")
 else:
     print("even")
-
+ """
 """ def bilcalc(b):
     b=str(input("how much was the bill"))
     if b == "bad":
@@ -29,16 +29,17 @@ h = f//8
 i = f//9
 print(result,a,b,c,d,e,g,h,i) """
 
-""" f, z = map(int, input("What is your first factor, what is the second?").split())
-a = f/1
-b = f/2
-c = f/3
-d = f/4              #factors
-e = f/5
-g = f/6
-h = f/7
-i = f/8
-j = f/9
-print(f"First number: {f}, Second number: {z}")   #print using f string """ 
+f, z = (float, input("What is your first factor, what is the second?").split())
+a = f % 1
+b = f % 5
+c = z % 2
 
 
+
+print(f"Greatest Common Factor = {a}")   #print using f string
+
+
+""" 15 % i
+min
+max
+factor % i and % i  """
