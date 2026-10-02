@@ -29,12 +29,11 @@ h = f//8
 i = f//9
 print(result,a,b,c,d,e,g,h,i) """
 
-""" f, z = (float, input("What is your first factor, what is the second?").split())
-a = f%2 
-b = f%5
+f = (float, input("What is your first factor?").split()) 
+a = f//2
 
-if f == a:
-    print =()
+if f:
+    print =(f)
 
 
 
@@ -44,19 +43,12 @@ if f == a:
 
 
 print(f"Greatest Common Factor = {a}")   #print using f string
- """
+ 
 
 """ 15 % i
 min
 max
-factor % i and % i  """
+factor % i and % i
 
 
-n=str(input("How many parking spaces were used up?"))
-t=str(input("What was were the parking spots occupied yesterday?"))
-y=str(input("What spots were occupied today?"))
-c = (n,y,t)
-
-def spaces():
-    print("hello")
-print(f"parking spaces{c}")
+print(f"parking spaces{c}") """
