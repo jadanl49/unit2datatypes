@@ -29,21 +29,17 @@ h = f//8
 i = f//9
 print(result,a,b,c,d,e,g,h,i) """
 
-f = (float, input("What is your first factor?").split()) 
-a = f//2
+""" x = (float, input("What is your first factor?").split()) 
+y = (float, input("What is the second factor?").split())
 
-if f:
-    print =(f)
+def gcf(a):
 
-
-
-
-   
-
+    if x and y % 2 == 0:
+        print("")
 
 
 print(f"Greatest Common Factor = {a}")   #print using f string
- 
+  """
 
 """ 15 % i
 min
@@ -52,3 +48,15 @@ factor % i and % i
 
 
 print(f"parking spaces{c}") """
+
+
+def wizard(owner, N, duels):
+    #create a function to find out who has the wand last
+    #how many wizards held the wand?
+    last_owner=owner
+    changes = 0
+    #check one battle
+    #print(duels[0])
+    #check first character 
+    print(duels[0][0])
+wizard("A", 3, ["BA", "CB"])
