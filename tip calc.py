@@ -31,32 +31,35 @@ print(result,a,b,c,d,e,g,h,i) """
 
 """ x = (float, input("What is your first factor?").split()) 
 y = (float, input("What is the second factor?").split())
+ """
+def gcf(x,y):
+    var1 = x % i
+    var2 = y % 2
+    for i in range(x+y):
+        
 
-def gcf(a):
+        if var1 == 0 and var2 == 0 and var1 == var2:
+            print(i)
+gcf(2,2)
 
-    if x and y % 2 == 0:
-        print("")
-
-
-print(f"Greatest Common Factor = {a}")   #print using f string
-  """
-
-""" 15 % i
-min
-max
-factor % i and % i
+   
 
 
-print(f"parking spaces{c}") """
 
 
-def wizard(owner, N, duels):
-    #create a function to find out who has the wand last
-    #how many wizards held the wand?
-    last_owner=owner
-    changes = 0
-    #check one battle
-    #print(duels[0])
-    #check first character 
-    print(duels[0][0])
-wizard("A", 3, ["BA", "CB"])
+
+
+""" def wizard(N, start, duels):
+    owner = start
+    num_owners= 1
+   #checks if switches hand
+    for i in range(N):
+     if duels[i][1] == owner:
+        owner = duels[i][0]
+        num_owners += 1
+    print(owner)
+    print(num_owners)
+    #check if wand switches hands
+   
+        
+wizard(3, "A", ["BA", "CB", "DA"]) """
