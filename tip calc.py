@@ -17,38 +17,40 @@ else:
         print("25%")
 bilcalc(b=True) """
 
-""" f=int(input("What is your number?"))
-result = f/1
-a = f//2
-b = f//3
-c = f//4              #factors
-d = f//5
-e = f//6
-g = f//7
-h = f//8
-i = f//9
-print(result,a,b,c,d,e,g,h,i) """
 
-""" x = (float, input("What is your first factor?").split()) 
-y = (float, input("What is the second factor?").split())
- """
+
+def factors(x):
+    for i in range(x+1):
+        while x % i > 0:
+            if x % i == 0:
+                break
+            z = i
+                
+        print(z)
+factors(9)
+
+
+
+
+""" 
 def gcf(x,y):
 
     for i in range(1,x+y):
         var1 = x % i
         var2 = y % i
-    if var1 == 0 and var2 == 0 and var1 == var2:
-        print(var1)
-gcf(4,4)
+        if var1 == 0 and var2 == 0 and var1 == var2:
+            z=i
+    print(z)        
+gcf(100,20)
 
-   
-
-
-
+    """
 
 
 
-""" def wizard(N, start, duels):
+
+
+
+""" def wizard(N start, duels):
     owner = start
     num_owners= 1
    #checks if switches hand
