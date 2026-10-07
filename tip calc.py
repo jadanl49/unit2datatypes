@@ -33,14 +33,13 @@ print(result,a,b,c,d,e,g,h,i) """
 y = (float, input("What is the second factor?").split())
  """
 def gcf(x,y):
-    var1 = x % i
-    var2 = y % 2
-    for i in range(x+y):
-        
 
-        if var1 == 0 and var2 == 0 and var1 == var2:
-            print(i)
-gcf(2,2)
+    for i in range(1,x+y):
+        var1 = x % i
+        var2 = y % i
+    if var1 == 0 and var2 == 0 and var1 == var2:
+        print(var1)
+gcf(4,4)
 
    
 
@@ -62,4 +61,4 @@ gcf(2,2)
     #check if wand switches hands
    
         
-wizard(3, "A", ["BA", "CB", "DA"]) """
+wizard(3, "A", ["BA", "CB", "DA"])  """
