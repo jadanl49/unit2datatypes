@@ -19,7 +19,7 @@ bilcalc(b=True) """
 
 
 
-def factors(x):
+""" def factors(x):
     for i in range(x+1):
         while x % i > 0:
             if x % i == 0:
@@ -28,11 +28,11 @@ def factors(x):
                 
         print(z)
 factors(9)
+ """
 
 
 
 
-""" 
 def gcf(x,y):
 
     for i in range(1,x+y):
@@ -43,7 +43,7 @@ def gcf(x,y):
     print(z)        
 gcf(100,20)
 
-    """
+    
 
 
 
